@@ -7,6 +7,9 @@ kubectl get nodes
 git clone https://github.com/nodnarboen/HOT-k8s.git
 cd HOT-k8s
 ./install-oneagent-operator.sh
+#run troubleshooting steps 2 to 4 to delete
+kubectl -n dynatrace get pods
+#to check whether it is running
 
 == Lab 3
 ./setup-activegate.sh
